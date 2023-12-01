@@ -38,6 +38,7 @@ mod Ex05 {
     // In Cairo 1, storage is declared in a struct
     // Storage is not visible by default through the ABI
     ////////////////////////////////
+
     struct Storage {
         user_slots: LegacyMap::<ContractAddress, u128>,
         user_values_public: LegacyMap::<ContractAddress, u128>,
