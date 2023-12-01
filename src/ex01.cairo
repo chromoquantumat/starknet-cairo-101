@@ -23,6 +23,7 @@ mod Ex01 {
     // Internal imports
     // These functions become part of the set of functions of the contract
     ////////////////////////////////
+
     use starknet_cairo_101::utils::ex00_base::Ex00Base::validate_exercise;
     use starknet_cairo_101::utils::ex00_base::Ex00Base::ex_initializer;
     use starknet_cairo_101::utils::ex00_base::Ex00Base::distribute_points;
