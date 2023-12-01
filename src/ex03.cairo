@@ -39,6 +39,7 @@ mod Ex03 {
     // In Cairo 1, storage is declared in a struct
     // Storage is not visible by default through the ABI
     ////////////////////////////////
+
     struct Storage {
         // This variable is a LegacyMap. It is equivalent to a mapping in Solidity.
         // It is used to store a counter (of type u128) for each user address (of type ContractAddress) in the contract's storage
